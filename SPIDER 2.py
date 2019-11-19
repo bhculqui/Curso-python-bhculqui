@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 12 20:54:39 2019
+
+@author: BLUEIT-PARTICIPANTE
+"""
+
+stri1="Cisco"
+stri2="Netoworking"
+stri3="Academy"
+space=" "
+print(stri1+space+stri2+space+stri3)
+
+stri1="Cisco"
+stri2="Netoworking"
+stri3="Academy"
+space=" "
+print(stri1+stri2+stri3)#+concatena
+
+stri1="Cisco"
+stri2="Netoworking"
+stri3="Academy"
+space=" "
+print(stri1,stri2,stri3)#coma separa el texto de las variable
+
+x=3
+print("the value of x is" + x) #print("the value of x is" + x) #TypeError: can only concatenate str (not "int") to str
+
+x=3
+print("the value of x is",x) #TypeError: can only concatenate str (not "int") to str
+
+x=3
+print("the value of x is"+str(x)) #x=3
+print("the value of x is"+str(x)) #error
+
+
+x=3
+x=str(x)
+print("the value of x is"+str(x))
+
+
+pi=22/7
+print(pi)
